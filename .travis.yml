@@ -1,1 +1,8 @@
 language: java
+deploy:
+  provider: heroku
+  api_key:
+    secure: o1LVsO6D/bNzVfHneXe1wxuSBtcP0mCahm+9u+pH3TNvRY8hXeoKI1MEdCYPGlZFYsyg94suWz4WcnkX/avzjf1MtZicMNQEVX655Yy/3rN5jozlPnimyT4FVUg/TGlzdcqJGk6RKWfAXofyJA4lObYU5GUfmC+wHwkcmYRgJU4=
+  app: bookapp-rest-bfh
+  on:
+    repo: rvillars/bookapp-rest-bfh
